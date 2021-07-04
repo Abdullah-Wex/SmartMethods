@@ -1,17 +1,17 @@
 # SmartMethods
 للتدريب في شركة الأساليب الذكية
 داخل المجلد حيكون مجلدين للمهمة الأولى و الثانية 
-#2021/4/7
-#First Task
+# 2021/4/7
+# First Task
 تم تصميم 6 Sliders لكل Servo
 مع تنسيق صفحة الويب ب استعمال Sass
-##[Container] Have [Card] Have [Input from type [Range]] And [Label to show the slider value]
+# [Container] Have [Card] Have [Input from type [Range]] And [Label to show the slider value]
 Container
 حاوية تحتوي على 6 Cards
 في كل بطاقة تحتوي على Slider و Label 
 
-#2021/4/7
-#Second Task
+# 2021/4/7
+# Second Task
 تم تصميم
 Container
 تحتوي على 5
@@ -23,10 +23,10 @@ SVG
 التي تتميز بوضوحها في جميع الأحجام مع التقريب أو التصغير
 و إضافة زر ينتقل إلى المهمة الأولى و المثل للصفحة الاولى الى الثانية
 
-#2021/4/7
-#Recorder
+# 2021/4/7
+# Recorder
 تمت إضافة تسجيل يشرح طريقة عمل الصفحات و قاعدة البيانات
 
-#2021/4/7
-#Database [First & Second]
+# 2021/4/7
+# Database [First & Second]
 تمت إضافة قاعدة البيانات تجمع في داخلها جداول للمهمة الأولى و الثانية
