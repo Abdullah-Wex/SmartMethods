@@ -108,7 +108,8 @@ try {
       }
     ?>
     <script>
-
+        
+  
         var motor1 = document.getElementById("motor1");
         var label1 = document.getElementById("label1");
         label1.innerHTML = motor1.value;
@@ -142,6 +143,17 @@ try {
             label6.innerHTML = motor6.value 
         }
 
+  window.watsonAssistantChatOptions = {
+      integrationID: "5b3a6989-b753-4ed1-bbb5-e2f17e85d7b3", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "3a0144d7-1089-4c3e-bc21-4cb00dcab0f6", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
     </script>
         
 
