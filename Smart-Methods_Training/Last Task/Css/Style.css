@@ -1,0 +1,227 @@
+/* DivLogin */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background: #BAE6FF;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  position: relative;
+  padding: 0px;
+  width: 439px;
+  height: 561px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.container label {
+  font-family: Fredoka One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 62px;
+  line-height: 75px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  text-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+}
+
+.container .DivLogin {
+  margin-top: 20px;
+  height: 436px;
+  width: 439px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 20px, 0px, 20px, 0px;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container .DivLogin .container-mid {
+  height: 90px;
+  width: 343px;
+  left: 48px;
+  top: 20px;
+  border-radius: 10px;
+  margin-bottom: 51px;
+}
+
+.container .DivLogin .container-mid label {
+  margin-bottom: 4px;
+  height: 36px;
+  width: 146px;
+  left: 48px;
+  top: 20px;
+  border-radius: nullpx;
+  font-family: Fredoka One;
+  font-size: 30px;
+  font-style: normal;
+  color: #000000;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container .DivLogin .container-mid input {
+  height: 50px;
+  width: 343px;
+  left: 48px;
+  top: 60px;
+  border-radius: 10px;
+  font-family: Fredoka One;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.container .DivLogin .container-mid input:focus {
+  border-radius: 10px;
+}
+
+.container .DivLogin label {
+  height: 18px;
+  width: 169px;
+  left: 135px;
+  top: 302px;
+  border-radius: nullpx;
+  font-family: Fredoka One;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 51px;
+  color: black;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.container .DivLogin .container-mid-buttons {
+  height: 45px;
+  width: auto;
+  left: 84px;
+  top: 371px;
+  border-radius: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px;
+}
+
+.container .DivLogin .container-mid-buttons input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 10px;
+  height: 45px;
+  width: auto;
+  left: 135px;
+  top: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22A7E5), to(#22A7E5));
+  background: linear-gradient(0deg, #22A7E5, #22A7E5);
+  color: #ffE6FF;
+  border: 1.5px solid #22A7E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0px 10px;
+  font-family: Fredoka One;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container .DivLogin .container-mid-buttons input:hover {
+  cursor: pointer;
+}
+
+.container .DivLogin .container-mid-buttons .SignUp {
+  height: 45px;
+  width: auto;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  padding: 10px;
+  background: white;
+  border: 2px solid #22a7e5;
+  color: #22a7e5;
+  font-family: Fredoka One;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+/*# sourceMappingURL=Style.css.map */
